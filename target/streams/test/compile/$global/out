@@ -1,31 +1,33 @@
 [debug] 
 [debug] Initial source changes: 
 [debug] 	removed:Set()
-[debug] 	added: Set(/Users/rocknrollMarc/workspace/scala/tdd/src/test/scala/AlbumTest.scala)
+[debug] 	added: Set(/Users/marc.bluemner/workspace/scala/tdd/src/test/scala/AlbumSpecAll.scala)
 [debug] 	modified: Set()
 [debug] Removed products: Set()
 [debug] Modified external sources: Set()
 [debug] Modified binary dependencies: Set()
-[debug] Initial directly invalidated sources: Set(/Users/rocknrollMarc/workspace/scala/tdd/src/test/scala/AlbumTest.scala)
+[debug] Initial directly invalidated sources: Set(/Users/marc.bluemner/workspace/scala/tdd/src/test/scala/AlbumSpecAll.scala)
 [debug] 
 [debug] Sources indirectly invalidated by:
 [debug] 	product: Set()
 [debug] 	binary dep: Set()
 [debug] 	external source: Set()
-[debug] All initially invalidated sources: Set(/Users/rocknrollMarc/workspace/scala/tdd/src/test/scala/AlbumTest.scala)
-[debug] Recompiling all 1 sources: invalidated sources (1) exceeded 50.0% of all sources
-[info] Compiling 1 Scala source to /Users/rocknrollMarc/workspace/scala/tdd/target/scala-2.10/test-classes...
+[debug] All initially invalidated sources: Set(/Users/marc.bluemner/workspace/scala/tdd/src/test/scala/AlbumSpecAll.scala)
+[info] Compiling 1 Scala source to /Users/marc.bluemner/workspace/scala/tdd/target/scala-2.10/test-classes...
 [debug] Getting compiler-interface from component compiler for Scala 2.10.3
 [debug] Getting compiler-interface from component compiler for Scala 2.10.3
-[debug] Running cached compiler 13ba8095, interfacing (CompilerInterface) with Scala compiler version 2.10.3
+[debug] Running cached compiler 22c5cbd9, interfacing (CompilerInterface) with Scala compiler version 2.10.3
 [debug] Calling Scala compiler with arguments  (CompilerInterface):
 [debug] 	-bootclasspath
-[debug] 	/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/classes:/Users/rocknrollMarc/.sbt/boot/scala-2.10.3/lib/scala-library.jar
+[debug] 	/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/classes:/Users/marc.bluemner/.sbt/boot/scala-2.10.3/lib/scala-library.jar
 [debug] 	-classpath
-[debug] 	/Users/rocknrollMarc/workspace/scala/tdd/target/scala-2.10/test-classes:/Users/rocknrollMarc/workspace/scala/tdd/target/scala-2.10/classes:/Users/rocknrollMarc/.ivy2/cache/org.scalatest/scalatest_2.11/jars/scalatest_2.11-2.1.5.jar:/Users/rocknrollMarc/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.0.jar:/Users/rocknrollMarc/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar:/Users/rocknrollMarc/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar
-[error] /Users/rocknrollMarc/workspace/scala/tdd/src/test/scala/AlbumTest.scala:9: not found: type Album
-[error]       val album = new Album("Thriller", 1981,
-[error]                       ^
-[error] one error found
-[debug] Compilation failed (CompilerInterface)
-[error] (test:compile) Compilation failed
+[debug] 	/Users/marc.bluemner/workspace/scala/tdd/target/scala-2.10/test-classes:/Users/marc.bluemner/workspace/scala/tdd/target/scala-2.10/classes:/Users/marc.bluemner/.ivy2/cache/templemore/sbt-cucumber-integration_2.10/jars/sbt-cucumber-integration_2.10-0.8.0.jar:/Users/marc.bluemner/.ivy2/cache/info.cukes/cucumber-scala_2.10/jars/cucumber-scala_2.10-1.1.4.jar:/Users/marc.bluemner/.ivy2/cache/info.cukes/cucumber-core/jars/cucumber-core-1.1.4.jar:/Users/marc.bluemner/.ivy2/cache/info.cukes/cucumber-html/jars/cucumber-html-0.2.3.jar:/Users/marc.bluemner/.ivy2/cache/info.cukes/cucumber-jvm-deps/jars/cucumber-jvm-deps-1.0.3.jar:/Users/marc.bluemner/.ivy2/cache/info.cukes/gherkin/bundles/gherkin-2.12.1.jar:/Users/marc.bluemner/.ivy2/cache/org.scala-tools.testing/test-interface/jars/test-interface-0.5.jar:/Users/marc.bluemner/.ivy2/cache/org.scalatest/scalatest_2.10/jars/scalatest_2.10-2.1.5.jar:/Users/marc.bluemner/.sbt/boot/scala-2.10.3/lib/scala-reflect.jar
+[warn] there were 1 deprecation warning(s); re-run with -deprecation for details
+[warn] one warning found
+[debug] Scala compilation took 1.756437 s
+[debug] Invalidated by transitive public inheritance: Set(/Users/marc.bluemner/workspace/scala/tdd/src/test/scala/AlbumSpecAll.scala)
+[debug] Invalidated by direct dependency: Set()
+[debug] New invalidations:
+[debug] 	Set()
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] 	Set()

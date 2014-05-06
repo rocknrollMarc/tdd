@@ -1,0 +1,7 @@
+[info] AlbumSpec:
+[info] An Album
+[info] - can add an Artist to the album at construction time
+[info]   + Given The Album Thriller by Michael Jackson 
+[info]   + When the albums artist is obtained 
+[info]   + Then the artist obtained should be an instance of Artist 
+[info]   + And the artists first name and last should be Michael Jackson 

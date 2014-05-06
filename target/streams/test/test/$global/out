@@ -1,0 +1,15 @@
+[debug] Running TaskDef(AlbumTest, org.scalatest.tools.Framework$$anon$1@6cd3e707, false, [SuiteSelector])
+[debug] Running TaskDef(AlbumSpecAll, org.scalatest.tools.Framework$$anon$1@6cd3e707, false, [SuiteSelector])
+[debug] Running TaskDef(AlbumSpec, org.scalatest.tools.Framework$$anon$1@6cd3e707, false, [SuiteSelector])
+[info] ScalaTest
+[info] 36mRun completed in 318 milliseconds.0m
+[info] 36mTotal number of tests run: 20m
+[info] 36mSuites: completed 3, aborted 00m
+[info] 36mTests: succeeded 2, failed 0, canceled 0, ignored 1, pending 10m
+[info] 32mAll tests passed.0m
+[debug] Summary for cucumber not available.
+[info] Passed: Total 2, Failed 0, Errors 0, Passed 2, Ignored 1, Pending 1
+[debug] Passed tests:
+[debug] 	AlbumTest
+[debug] 	AlbumSpec
+[debug] 	AlbumSpecAll

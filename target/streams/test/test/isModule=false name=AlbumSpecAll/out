@@ -1,0 +1,9 @@
+[info] AlbumSpecAll:
+[info] An Album
+[info] - can add an Artist to the album at construction time (pending)
+[info]   + Given The Album Thriller by Michael Jackson 
+[info]   + When the artist of the album is obtained 
+[info]   + Then the artist should be an instance of Artist 
+[info]   + And the artists first name and last name should be Michael Jackson 
+[info]   + This is still pending since there may be more to accomplisch in test 
+[info] - can add a Producer to an album at construction time !!! IGNORED !!!

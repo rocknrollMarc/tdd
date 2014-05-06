@@ -13,31 +13,31 @@
       :package "tdd"
       :version "0.1-SNAPSHOT"
       :compile-deps (
-        "/Users/rocknrollMarc/.sbt/boot/scala-2.10.3/lib/scala-library.jar"
+        "/Users/marc.bluemner/.sbt/boot/scala-2.10.3/lib/scala-library.jar"
       )
       :runtime-deps (
-        "/Users/rocknrollMarc/.sbt/boot/scala-2.10.3/lib/scala-library.jar"
-        "/Users/rocknrollMarc/workspace/scala/tdd/target/scala-2.10/classes"
-        "/Users/rocknrollMarc/workspace/scala/tdd/target/scala-2.10/classes"
+        "/Users/marc.bluemner/.sbt/boot/scala-2.10.3/lib/scala-library.jar"
+        "/Users/marc.bluemner/workspace/scala/tdd/target/scala-2.10/classes"
+        "/Users/marc.bluemner/workspace/scala/tdd/target/scala-2.10/classes"
       )
       :test-deps (
-        "/Users/rocknrollMarc/.ivy2/cache/org.scalatest/scalatest_2.11/jars/scalatest_2.11-2.1.5.jar"
-        "/Users/rocknrollMarc/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.0.jar"
-        "/Users/rocknrollMarc/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.0.jar"
-        "/Users/rocknrollMarc/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar"
-        "/Users/rocknrollMarc/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar"
-        "/Users/rocknrollMarc/workspace/scala/tdd/target/scala-2.10/classes"
+        "/Users/marc.bluemner/.ivy2/cache/org.scalatest/scalatest_2.11/jars/scalatest_2.11-2.1.5.jar"
+        "/Users/marc.bluemner/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.0.jar"
+        "/Users/marc.bluemner/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.0.jar"
+        "/Users/marc.bluemner/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.1.jar"
+        "/Users/marc.bluemner/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.1.jar"
+        "/Users/marc.bluemner/workspace/scala/tdd/target/scala-2.10/classes"
       )
       :source-roots (
-        "/Users/rocknrollMarc/workspace/scala/tdd/src/main/scala"
-        "/Users/rocknrollMarc/workspace/scala/tdd/src/main/java"
-        "/Users/rocknrollMarc/workspace/scala/tdd/target/scala-2.10/src_managed/main"
-        "/Users/rocknrollMarc/workspace/scala/tdd/src/test/scala"
-        "/Users/rocknrollMarc/workspace/scala/tdd/src/test/java"
-        "/Users/rocknrollMarc/workspace/scala/tdd/target/scala-2.10/src_managed/test"
+        "/Users/marc.bluemner/workspace/scala/tdd/src/main/scala"
+        "/Users/marc.bluemner/workspace/scala/tdd/src/main/java"
+        "/Users/marc.bluemner/workspace/scala/tdd/target/scala-2.10/src_managed/main"
+        "/Users/marc.bluemner/workspace/scala/tdd/src/test/scala"
+        "/Users/marc.bluemner/workspace/scala/tdd/src/test/java"
+        "/Users/marc.bluemner/workspace/scala/tdd/target/scala-2.10/src_managed/test"
       )
-      :target "/Users/rocknrollMarc/workspace/scala/tdd/target/scala-2.10/classes"
-      :test-target "/Users/rocknrollMarc/workspace/scala/tdd/target/scala-2.10/test-classes"
+      :target "/Users/marc.bluemner/workspace/scala/tdd/target/scala-2.10/classes"
+      :test-target "/Users/marc.bluemner/workspace/scala/tdd/target/scala-2.10/test-classes"
     )
   )
 )

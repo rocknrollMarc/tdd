@@ -1,0 +1,12 @@
+class AlbumSpec extends FunSpec with ShouldMatchers with GivenWhenThen {
+
+  describe("An Album") {
+    it("can add an Artist to the album at construction time") {
+      given("The album Thriller by Michael Jackson")
+      val album = new Album("Thriller", 1981, new Artist("Michael", Jackson))
+
+      when("the albums artist is obtained")
+      val artist.
+    }
+  }
+}

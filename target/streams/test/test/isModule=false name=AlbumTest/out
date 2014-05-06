@@ -1,0 +1,3 @@
+[info] AlbumTest:
+[info] An Album
+[info] - can add a Artist Object to the Album at construction time

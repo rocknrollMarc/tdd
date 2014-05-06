@@ -1,0 +1,4 @@
+class Album(title: String, year: Int) {
+
+
+}

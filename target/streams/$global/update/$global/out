@@ -1,4 +1,4 @@
-[info] Updating {file:/Users/rocknrollMarc/workspace/scala/tdd/}tdd...
+[info] Updating {file:/Users/marc.bluemner/workspace/scala/tdd/}tdd...
 [debug] :: resolving dependencies :: tdd#default_2.10;0.1-SNAPSHOT
 [debug] 	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool]
 [debug] 	validate = true
@@ -7,7 +7,7 @@
 [debug] == resolving dependencies for tdd#default_2.10;0.1-SNAPSHOT [compile]
 [debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->default(compile)]
 [info] Resolving org.scala-lang#scala-library;2.10.3 ...
-[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@72ea31ae
+[debug] sbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@2ad14b06
 [debug] sbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3
 [debug] 	local: revision in cache: org.scala-lang#scala-library;2.10.3
 [debug] 	found org.scala-lang#scala-library;2.10.3 in sbt-chain
@@ -30,91 +30,107 @@
 [debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->runtime]
 [debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile]
 [debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master]
-[debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.1.5 [test->default(compile)]
-[info] Resolving org.scalatest#scalatest_2.11;2.1.5 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.11;2.1.5 {test=[default(compile)]}
-[debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.11;2.1.5
-[debug] 	local: revision in cache: org.scalatest#scalatest_2.11;2.1.5
-[debug] 	found org.scalatest#scalatest_2.11;2.1.5 in sbt-chain
-[debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.1.5 [test->runtime]
-[debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.1.5 [test->compile]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang#scala-library;2.11.0 [compile->master(*)]
-[info] Resolving org.scala-lang#scala-library;2.11.0 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.11.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried /Users/rocknrollMarc/.ivy2/local/org.scala-lang/scala-library/2.11.0/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scala-lang#scala-library;2.11.0
-[debug] 		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.0/scala-library-2.11.0.pom
-[debug] 	public: found md file for org.scala-lang#scala-library;2.11.0
-[debug] 		=> http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.0/scala-library-2.11.0.pom (2.11.0)
-[debug] downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.0/scala-library-2.11.0.pom ...
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.0/scala-library-2.11.0.pom
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.0/scala-library-2.11.0.pom.sha1
-[debug] sha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.0/scala-library-2.11.0.pom
-[debug] 	[SUCCESSFUL ] org.scala-lang#scala-library;2.11.0!scala-library.pom(pom.original) (1220ms)
-[debug] 		tried /Users/rocknrollMarc/.ivy2/local/org.scala-lang/scala-library/2.11.0/jars/scala-library.jar
-[debug] 		tried http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.0/scala-library-2.11.0.jar
-[debug] 	found org.scala-lang#scala-library;2.11.0 in public
-[debug] 	[2.11.0] org.scala-lang#scala-library;2.11.0
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang#scala-library;2.11.0 [compile->default(compile)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang#scala-library;2.11.0 [compile->runtime]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang#scala-library;2.11.0 [compile->compile]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang#scala-library;2.11.0 [compile->master]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang#scala-library;2.11.0 [compile->runtime]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang#scala-library;2.11.0 [compile->compile]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang#scala-reflect;2.11.0 [compile->master(*)]
-[info] Resolving org.scala-lang#scala-reflect;2.11.0 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.11.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] 		tried /Users/rocknrollMarc/.ivy2/local/org.scala-lang/scala-reflect/2.11.0/ivys/ivy.xml
-[debug] 	local: no ivy file found for org.scala-lang#scala-reflect;2.11.0
-[debug] 		tried http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.0/scala-reflect-2.11.0.pom
-[debug] 	public: found md file for org.scala-lang#scala-reflect;2.11.0
-[debug] 		=> http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.0/scala-reflect-2.11.0.pom (2.11.0)
-[debug] downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.0/scala-reflect-2.11.0.pom ...
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.0/scala-reflect-2.11.0.pom
-[debug] 	public: downloading http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.0/scala-reflect-2.11.0.pom.sha1
-[debug] sha1 OK for http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.0/scala-reflect-2.11.0.pom
-[debug] 	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.11.0!scala-reflect.pom(pom.original) (1317ms)
-[debug] 		tried /Users/rocknrollMarc/.ivy2/local/org.scala-lang/scala-reflect/2.11.0/jars/scala-reflect.jar
-[debug] 		tried http://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.0/scala-reflect-2.11.0.jar
-[debug] 	found org.scala-lang#scala-reflect;2.11.0 in public
-[debug] 	[2.11.0] org.scala-lang#scala-reflect;2.11.0
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang#scala-reflect;2.11.0 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->master(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(*)]
-[info] Resolving org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1
-[debug] 	local: revision in cache: org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1
-[debug] 	found org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 in sbt-chain
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master(*)]
-[info] Resolving org.scala-lang.modules#scala-xml_2.11;1.0.1 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.11;1.0.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.11;1.0.1
-[debug] 	local: revision in cache: org.scala-lang.modules#scala-xml_2.11;1.0.1
-[debug] 	found org.scala-lang.modules#scala-xml_2.11;1.0.1 in sbt-chain
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang#scala-library;2.11.0 [runtime->compile]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang#scala-reflect;2.11.0 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang#scala-reflect;2.11.0 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [runtime->compile]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->compile]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->compile]
-[debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.1.5 [test->master]
+[debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->templemore#sbt-cucumber-integration_2.10;0.8.0 [test->default(compile)]
+[info] Resolving templemore#sbt-cucumber-integration_2.10;0.8.0 ...
+[debug] sbt-chain: Checking cache for: dependency: templemore#sbt-cucumber-integration_2.10;0.8.0 {test=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: templemore#sbt-cucumber-integration_2.10;0.8.0
+[debug] 	local: revision in cache: templemore#sbt-cucumber-integration_2.10;0.8.0
+[debug] 	found templemore#sbt-cucumber-integration_2.10;0.8.0 in sbt-chain
+[debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->templemore#sbt-cucumber-integration_2.10;0.8.0 [test->runtime]
+[debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->templemore#sbt-cucumber-integration_2.10;0.8.0 [test->compile]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->org.scala-lang#scala-library;2.10.2 [compile->master(*)]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->org.scala-lang#scala-library;2.10.3 [compile->master(*)]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->org.scala-lang#scala-library;2.10.2 [compile->compile(*)]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->org.scala-lang#scala-library;2.10.3 [compile->compile(*)]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->info.cukes#cucumber-scala_2.10;1.1.4 [compile->master(*)]
+[info] Resolving info.cukes#cucumber-scala_2.10;1.1.4 ...
+[debug] sbt-chain: Checking cache for: dependency: info.cukes#cucumber-scala_2.10;1.1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: info.cukes#cucumber-scala_2.10;1.1.4
+[debug] 	local: revision in cache: info.cukes#cucumber-scala_2.10;1.1.4
+[debug] 	found info.cukes#cucumber-scala_2.10;1.1.4 in sbt-chain
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->info.cukes#cucumber-scala_2.10;1.1.4 [compile->compile(*)]
+[debug] == resolving dependencies info.cukes#cucumber-scala_2.10;1.1.4->info.cukes#cucumber-core;1.1.4 [compile->master(*)]
+[info] Resolving info.cukes#cucumber-core;1.1.4 ...
+[debug] sbt-chain: Checking cache for: dependency: info.cukes#cucumber-core;1.1.4 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: info.cukes#cucumber-core;1.1.4
+[debug] 	local: revision in cache: info.cukes#cucumber-core;1.1.4
+[debug] 	found info.cukes#cucumber-core;1.1.4 in sbt-chain
+[debug] == resolving dependencies info.cukes#cucumber-scala_2.10;1.1.4->info.cukes#cucumber-core;1.1.4 [compile->compile(*)]
+[debug] == resolving dependencies info.cukes#cucumber-core;1.1.4->info.cukes#cucumber-html;0.2.3 [compile->master(*)]
+[info] Resolving info.cukes#cucumber-html;0.2.3 ...
+[debug] sbt-chain: Checking cache for: dependency: info.cukes#cucumber-html;0.2.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: info.cukes#cucumber-html;0.2.3
+[debug] 	local: revision in cache: info.cukes#cucumber-html;0.2.3
+[debug] 	found info.cukes#cucumber-html;0.2.3 in sbt-chain
+[debug] == resolving dependencies info.cukes#cucumber-core;1.1.4->info.cukes#cucumber-html;0.2.3 [compile->compile(*)]
+[debug] == resolving dependencies info.cukes#cucumber-core;1.1.4->info.cukes#cucumber-jvm-deps;1.0.3 [compile->master(*)]
+[info] Resolving info.cukes#cucumber-jvm-deps;1.0.3 ...
+[debug] sbt-chain: Checking cache for: dependency: info.cukes#cucumber-jvm-deps;1.0.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: info.cukes#cucumber-jvm-deps;1.0.3
+[debug] 	local: revision in cache: info.cukes#cucumber-jvm-deps;1.0.3
+[debug] 	found info.cukes#cucumber-jvm-deps;1.0.3 in sbt-chain
+[debug] == resolving dependencies info.cukes#cucumber-core;1.1.4->info.cukes#cucumber-jvm-deps;1.0.3 [compile->compile(*)]
+[debug] == resolving dependencies info.cukes#cucumber-core;1.1.4->info.cukes#gherkin;2.12.1 [compile->master(*)]
+[info] Resolving info.cukes#gherkin;2.12.1 ...
+[debug] sbt-chain: Checking cache for: dependency: info.cukes#gherkin;2.12.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: info.cukes#gherkin;2.12.1
+[debug] 	local: revision in cache: info.cukes#gherkin;2.12.1
+[debug] 	found info.cukes#gherkin;2.12.1 in sbt-chain
+[debug] == resolving dependencies info.cukes#cucumber-core;1.1.4->info.cukes#gherkin;2.12.1 [compile->compile(*)]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->info.cukes#cucumber-scala_2.10;1.1.4 [compile->runtime(*)]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->info.cukes#cucumber-scala_2.10;1.1.4 [compile->compile]
+[debug] == resolving dependencies info.cukes#cucumber-scala_2.10;1.1.4->info.cukes#cucumber-core;1.1.4 [runtime->runtime(*)]
+[debug] == resolving dependencies info.cukes#cucumber-scala_2.10;1.1.4->info.cukes#cucumber-core;1.1.4 [runtime->compile]
+[debug] == resolving dependencies info.cukes#cucumber-core;1.1.4->info.cukes#cucumber-html;0.2.3 [runtime->runtime(*)]
+[debug] == resolving dependencies info.cukes#cucumber-core;1.1.4->info.cukes#cucumber-html;0.2.3 [runtime->compile]
+[debug] == resolving dependencies info.cukes#cucumber-core;1.1.4->info.cukes#cucumber-jvm-deps;1.0.3 [runtime->runtime(*)]
+[debug] == resolving dependencies info.cukes#cucumber-core;1.1.4->info.cukes#cucumber-jvm-deps;1.0.3 [runtime->compile]
+[debug] == resolving dependencies info.cukes#cucumber-core;1.1.4->info.cukes#gherkin;2.12.1 [runtime->runtime(*)]
+[debug] == resolving dependencies info.cukes#cucumber-core;1.1.4->info.cukes#gherkin;2.12.1 [runtime->compile]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->org.scala-tools.testing#test-interface;0.5 [compile->master(*)]
+[info] Resolving org.scala-tools.testing#test-interface;0.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-tools.testing#test-interface;0.5 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-tools.testing#test-interface;0.5
+[debug] 	local: revision in cache: org.scala-tools.testing#test-interface;0.5
+[debug] 	found org.scala-tools.testing#test-interface;0.5 in sbt-chain
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->org.scala-tools.testing#test-interface;0.5 [compile->compile(*)]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->org.scala-tools.testing#test-interface;0.5 [compile->runtime(*)]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->org.scala-tools.testing#test-interface;0.5 [compile->compile]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->org.scala-lang#scala-library;2.10.3 [runtime->compile]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->info.cukes#cucumber-scala_2.10;1.1.4 [runtime->runtime(*)]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->info.cukes#cucumber-scala_2.10;1.1.4 [runtime->compile]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->org.scala-tools.testing#test-interface;0.5 [runtime->runtime(*)]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->org.scala-tools.testing#test-interface;0.5 [runtime->compile]
+[debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->templemore#sbt-cucumber-integration_2.10;0.8.0 [test->master]
+[debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->org.scalatest#scalatest_2.10;2.1.5 [test->default(compile)]
+[info] Resolving org.scalatest#scalatest_2.10;2.1.5 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.10;2.1.5 {test=[default(compile)]}
+[debug] sbt-chain: module revision found in cache: org.scalatest#scalatest_2.10;2.1.5
+[debug] 	local: revision in cache: org.scalatest#scalatest_2.10;2.1.5
+[debug] 	found org.scalatest#scalatest_2.10;2.1.5 in sbt-chain
+[debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->org.scalatest#scalatest_2.10;2.1.5 [test->runtime]
+[debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->org.scalatest#scalatest_2.10;2.1.5 [test->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.1.5->org.scala-lang#scala-library;2.10.3 [compile->master(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.1.5->org.scala-lang#scala-library;2.10.3 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.1.5->org.scala-lang#scala-reflect;2.10.3 [compile->master(*)]
+[info] Resolving org.scala-lang#scala-reflect;2.10.3 ...
+[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
+[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.3
+[debug] 	local: revision in cache: org.scala-lang#scala-reflect;2.10.3
+[debug] 	found org.scala-lang#scala-reflect;2.10.3 in sbt-chain
+[debug] 	[2.10.3] org.scala-lang#scala-reflect;2.10.3
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.1.5->org.scala-lang#scala-reflect;2.10.3 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.1.5->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.1.5->org.scala-lang#scala-library;2.10.3 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.1.5->org.scala-lang#scala-reflect;2.10.3 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.1.5->org.scala-lang#scala-reflect;2.10.3 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->compile]
+[debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->org.scalatest#scalatest_2.10;2.1.5 [test->master]
 [debug] resolving dependencies for configuration 'provided'
 [debug] == resolving dependencies for tdd#default_2.10;0.1-SNAPSHOT [provided]
 [debug] resolving dependencies for configuration 'optional'
@@ -146,38 +162,57 @@
 [debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->runtime]
 [debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile]
 [debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master]
-[debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.1.5 [test->default(compile)]
-[debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.1.5 [test->runtime]
-[debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.1.5 [test->compile]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang#scala-library;2.11.0 [compile->master(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang#scala-reflect;2.11.0 [compile->master(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang#scala-reflect;2.11.0 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->master(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->master(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->master(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang.modules#scala-xml_2.11;1.0.1 [compile->compile(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->master(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [compile->compile(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang#scala-library;2.11.0 [runtime->compile]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang#scala-reflect;2.11.0 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang#scala-reflect;2.11.0 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang#scala-reflect;2.11.0->org.scala-lang#scala-library;2.11.0 [runtime->compile]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->compile]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scalatest#scalatest_2.11;2.1.5->org.scala-lang.modules#scala-xml_2.11;1.0.1 [runtime->compile]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->runtime(*)]
-[debug] == resolving dependencies org.scala-lang.modules#scala-xml_2.11;1.0.1->org.scala-lang#scala-library;2.11.0 [runtime->compile]
-[debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->org.scalatest#scalatest_2.11;2.1.5 [test->master]
+[debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->templemore#sbt-cucumber-integration_2.10;0.8.0 [test->default(compile)]
+[debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->templemore#sbt-cucumber-integration_2.10;0.8.0 [test->runtime]
+[debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->templemore#sbt-cucumber-integration_2.10;0.8.0 [test->compile]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->org.scala-lang#scala-library;2.10.2 [compile->master(*)]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->org.scala-lang#scala-library;2.10.3 [compile->master(*)]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->org.scala-lang#scala-library;2.10.2 [compile->compile(*)]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->org.scala-lang#scala-library;2.10.3 [compile->compile(*)]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->info.cukes#cucumber-scala_2.10;1.1.4 [compile->master(*)]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->info.cukes#cucumber-scala_2.10;1.1.4 [compile->compile(*)]
+[debug] == resolving dependencies info.cukes#cucumber-scala_2.10;1.1.4->info.cukes#cucumber-core;1.1.4 [compile->master(*)]
+[debug] == resolving dependencies info.cukes#cucumber-scala_2.10;1.1.4->info.cukes#cucumber-core;1.1.4 [compile->compile(*)]
+[debug] == resolving dependencies info.cukes#cucumber-core;1.1.4->info.cukes#cucumber-html;0.2.3 [compile->master(*)]
+[debug] == resolving dependencies info.cukes#cucumber-core;1.1.4->info.cukes#cucumber-html;0.2.3 [compile->compile(*)]
+[debug] == resolving dependencies info.cukes#cucumber-core;1.1.4->info.cukes#cucumber-jvm-deps;1.0.3 [compile->master(*)]
+[debug] == resolving dependencies info.cukes#cucumber-core;1.1.4->info.cukes#cucumber-jvm-deps;1.0.3 [compile->compile(*)]
+[debug] == resolving dependencies info.cukes#cucumber-core;1.1.4->info.cukes#gherkin;2.12.1 [compile->master(*)]
+[debug] == resolving dependencies info.cukes#cucumber-core;1.1.4->info.cukes#gherkin;2.12.1 [compile->compile(*)]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->org.scala-tools.testing#test-interface;0.5 [compile->master(*)]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->org.scala-tools.testing#test-interface;0.5 [compile->compile(*)]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->org.scala-lang#scala-library;2.10.2 [runtime->runtime(*)]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->org.scala-lang#scala-library;2.10.3 [runtime->compile]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->info.cukes#cucumber-scala_2.10;1.1.4 [runtime->runtime(*)]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->info.cukes#cucumber-scala_2.10;1.1.4 [runtime->compile]
+[debug] == resolving dependencies info.cukes#cucumber-scala_2.10;1.1.4->info.cukes#cucumber-core;1.1.4 [runtime->runtime(*)]
+[debug] == resolving dependencies info.cukes#cucumber-scala_2.10;1.1.4->info.cukes#cucumber-core;1.1.4 [runtime->compile]
+[debug] == resolving dependencies info.cukes#cucumber-core;1.1.4->info.cukes#cucumber-html;0.2.3 [runtime->runtime(*)]
+[debug] == resolving dependencies info.cukes#cucumber-core;1.1.4->info.cukes#cucumber-html;0.2.3 [runtime->compile]
+[debug] == resolving dependencies info.cukes#cucumber-core;1.1.4->info.cukes#cucumber-jvm-deps;1.0.3 [runtime->runtime(*)]
+[debug] == resolving dependencies info.cukes#cucumber-core;1.1.4->info.cukes#cucumber-jvm-deps;1.0.3 [runtime->compile]
+[debug] == resolving dependencies info.cukes#cucumber-core;1.1.4->info.cukes#gherkin;2.12.1 [runtime->runtime(*)]
+[debug] == resolving dependencies info.cukes#cucumber-core;1.1.4->info.cukes#gherkin;2.12.1 [runtime->compile]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->org.scala-tools.testing#test-interface;0.5 [runtime->runtime(*)]
+[debug] == resolving dependencies templemore#sbt-cucumber-integration_2.10;0.8.0->org.scala-tools.testing#test-interface;0.5 [runtime->compile]
+[debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->templemore#sbt-cucumber-integration_2.10;0.8.0 [test->master]
+[debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->org.scalatest#scalatest_2.10;2.1.5 [test->default(compile)]
+[debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->org.scalatest#scalatest_2.10;2.1.5 [test->runtime]
+[debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->org.scalatest#scalatest_2.10;2.1.5 [test->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.1.5->org.scala-lang#scala-library;2.10.3 [compile->master(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.1.5->org.scala-lang#scala-library;2.10.3 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.1.5->org.scala-lang#scala-reflect;2.10.3 [compile->master(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.1.5->org.scala-lang#scala-reflect;2.10.3 [compile->compile(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.1.5->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.1.5->org.scala-lang#scala-library;2.10.3 [runtime->compile]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.1.5->org.scala-lang#scala-reflect;2.10.3 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scalatest#scalatest_2.10;2.1.5->org.scala-lang#scala-reflect;2.10.3 [runtime->compile]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)]
+[debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->compile]
+[debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->org.scalatest#scalatest_2.10;2.1.5 [test->master]
 [debug] == resolving dependencies for tdd#default_2.10;0.1-SNAPSHOT [optional]
 [debug] == resolving dependencies for tdd#default_2.10;0.1-SNAPSHOT [provided]
 [debug] resolving dependencies for configuration 'plugin'
@@ -206,12 +241,6 @@
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->optional(default)]
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [compile->master(*)]
-[info] Resolving org.scala-lang#scala-reflect;2.10.3 ...
-[debug] sbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.3 {compile=[compile(*), master(*)], runtime=[runtime(*)]}
-[debug] sbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.3
-[debug] 	local: revision in cache: org.scala-lang#scala-reflect;2.10.3
-[debug] 	found org.scala-lang#scala-reflect;2.10.3 in sbt-chain
-[debug] 	[2.10.3] org.scala-lang#scala-reflect;2.10.3
 [debug] == resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [compile->compile(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master(*)]
 [debug] == resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)]
@@ -242,31 +271,34 @@
 [debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->compile]
 [debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->master]
 [debug] == resolving dependencies tdd#default_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [scala-tool->optional(default)]
-[debug] 	resolved ivy file produced in /Users/rocknrollMarc/workspace/scala/tdd/target/resolution-cache/tdd/default_2.10/0.1-SNAPSHOT/resolved.xml.xml
+[debug] 	resolved ivy file produced in /Users/marc.bluemner/workspace/scala/tdd/target/resolution-cache/tdd/default_2.10/0.1-SNAPSHOT/resolved.xml.xml
 [debug] :: downloading artifacts ::
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar
-[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.11;2.1.5!scalatest_2.11.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.11.0!scala-library.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.11.0!scala-reflect.jar
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.11;1.0.1!scala-parser-combinators_2.11.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.11;1.0.1!scala-xml_2.11.jar(bundle)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar
+[debug] 	[NOT REQUIRED] templemore#sbt-cucumber-integration_2.10;0.8.0!sbt-cucumber-integration_2.10.jar
+[debug] 	[NOT REQUIRED] org.scalatest#scalatest_2.10;2.1.5!scalatest_2.10.jar
+[debug] 	[NOT REQUIRED] info.cukes#cucumber-scala_2.10;1.1.4!cucumber-scala_2.10.jar
+[debug] 	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar
+[debug] 	[NOT REQUIRED] info.cukes#cucumber-core;1.1.4!cucumber-core.jar
+[debug] 	[NOT REQUIRED] info.cukes#cucumber-html;0.2.3!cucumber-html.jar
+[debug] 	[NOT REQUIRED] info.cukes#cucumber-jvm-deps;1.0.3!cucumber-jvm-deps.jar
+[debug] 	[NOT REQUIRED] info.cukes#gherkin;2.12.1!gherkin.jar(bundle)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.3!scala-reflect.jar
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar
 [debug] 	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar
 [debug] 	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar
-[debug] :: resolution report :: resolve 4864ms :: artifacts dl 62ms
-[debug] 	report for tdd#default_2.10;0.1-SNAPSHOT compile produced in /Users/rocknrollMarc/workspace/scala/tdd/target/resolution-cache/reports/tdd-default_2.10-compile.xml
-[debug] 	report for tdd#default_2.10;0.1-SNAPSHOT runtime produced in /Users/rocknrollMarc/workspace/scala/tdd/target/resolution-cache/reports/tdd-default_2.10-runtime.xml
-[debug] 	report for tdd#default_2.10;0.1-SNAPSHOT test produced in /Users/rocknrollMarc/workspace/scala/tdd/target/resolution-cache/reports/tdd-default_2.10-test.xml
-[debug] 	report for tdd#default_2.10;0.1-SNAPSHOT provided produced in /Users/rocknrollMarc/workspace/scala/tdd/target/resolution-cache/reports/tdd-default_2.10-provided.xml
-[debug] 	report for tdd#default_2.10;0.1-SNAPSHOT optional produced in /Users/rocknrollMarc/workspace/scala/tdd/target/resolution-cache/reports/tdd-default_2.10-optional.xml
-[debug] 	report for tdd#default_2.10;0.1-SNAPSHOT compile-internal produced in /Users/rocknrollMarc/workspace/scala/tdd/target/resolution-cache/reports/tdd-default_2.10-compile-internal.xml
-[debug] 	report for tdd#default_2.10;0.1-SNAPSHOT runtime-internal produced in /Users/rocknrollMarc/workspace/scala/tdd/target/resolution-cache/reports/tdd-default_2.10-runtime-internal.xml
-[debug] 	report for tdd#default_2.10;0.1-SNAPSHOT test-internal produced in /Users/rocknrollMarc/workspace/scala/tdd/target/resolution-cache/reports/tdd-default_2.10-test-internal.xml
-[debug] 	report for tdd#default_2.10;0.1-SNAPSHOT plugin produced in /Users/rocknrollMarc/workspace/scala/tdd/target/resolution-cache/reports/tdd-default_2.10-plugin.xml
-[debug] 	report for tdd#default_2.10;0.1-SNAPSHOT sources produced in /Users/rocknrollMarc/workspace/scala/tdd/target/resolution-cache/reports/tdd-default_2.10-sources.xml
-[debug] 	report for tdd#default_2.10;0.1-SNAPSHOT docs produced in /Users/rocknrollMarc/workspace/scala/tdd/target/resolution-cache/reports/tdd-default_2.10-docs.xml
-[debug] 	report for tdd#default_2.10;0.1-SNAPSHOT pom produced in /Users/rocknrollMarc/workspace/scala/tdd/target/resolution-cache/reports/tdd-default_2.10-pom.xml
-[debug] 	report for tdd#default_2.10;0.1-SNAPSHOT scala-tool produced in /Users/rocknrollMarc/workspace/scala/tdd/target/resolution-cache/reports/tdd-default_2.10-scala-tool.xml
-[debug] 	resolve done (4864ms resolve - 62ms download)
+[debug] :: resolution report :: resolve 136ms :: artifacts dl 4ms
+[debug] 	report for tdd#default_2.10;0.1-SNAPSHOT compile produced in /Users/marc.bluemner/workspace/scala/tdd/target/resolution-cache/reports/tdd-default_2.10-compile.xml
+[debug] 	report for tdd#default_2.10;0.1-SNAPSHOT runtime produced in /Users/marc.bluemner/workspace/scala/tdd/target/resolution-cache/reports/tdd-default_2.10-runtime.xml
+[debug] 	report for tdd#default_2.10;0.1-SNAPSHOT test produced in /Users/marc.bluemner/workspace/scala/tdd/target/resolution-cache/reports/tdd-default_2.10-test.xml
+[debug] 	report for tdd#default_2.10;0.1-SNAPSHOT provided produced in /Users/marc.bluemner/workspace/scala/tdd/target/resolution-cache/reports/tdd-default_2.10-provided.xml
+[debug] 	report for tdd#default_2.10;0.1-SNAPSHOT optional produced in /Users/marc.bluemner/workspace/scala/tdd/target/resolution-cache/reports/tdd-default_2.10-optional.xml
+[debug] 	report for tdd#default_2.10;0.1-SNAPSHOT compile-internal produced in /Users/marc.bluemner/workspace/scala/tdd/target/resolution-cache/reports/tdd-default_2.10-compile-internal.xml
+[debug] 	report for tdd#default_2.10;0.1-SNAPSHOT runtime-internal produced in /Users/marc.bluemner/workspace/scala/tdd/target/resolution-cache/reports/tdd-default_2.10-runtime-internal.xml
+[debug] 	report for tdd#default_2.10;0.1-SNAPSHOT test-internal produced in /Users/marc.bluemner/workspace/scala/tdd/target/resolution-cache/reports/tdd-default_2.10-test-internal.xml
+[debug] 	report for tdd#default_2.10;0.1-SNAPSHOT plugin produced in /Users/marc.bluemner/workspace/scala/tdd/target/resolution-cache/reports/tdd-default_2.10-plugin.xml
+[debug] 	report for tdd#default_2.10;0.1-SNAPSHOT sources produced in /Users/marc.bluemner/workspace/scala/tdd/target/resolution-cache/reports/tdd-default_2.10-sources.xml
+[debug] 	report for tdd#default_2.10;0.1-SNAPSHOT docs produced in /Users/marc.bluemner/workspace/scala/tdd/target/resolution-cache/reports/tdd-default_2.10-docs.xml
+[debug] 	report for tdd#default_2.10;0.1-SNAPSHOT pom produced in /Users/marc.bluemner/workspace/scala/tdd/target/resolution-cache/reports/tdd-default_2.10-pom.xml
+[debug] 	report for tdd#default_2.10;0.1-SNAPSHOT scala-tool produced in /Users/marc.bluemner/workspace/scala/tdd/target/resolution-cache/reports/tdd-default_2.10-scala-tool.xml
+[debug] 	resolve done (136ms resolve - 4ms download)
 [info] Done updating.
